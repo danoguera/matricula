@@ -1,0 +1,59 @@
+html{
+  display: table;
+  margin: auto;
+}
+
+input{
+  font-family: verdana;
+}
+
+body{
+  text-align: center;
+  font-family: verdana;
+  font-size: 12px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+label{
+  font-weight: bold;
+}
+
+div{
+    background-color: #f2f6fc;
+    padding: 5px;
+}
+
+#form{
+  background-color: #f2f6fc;
+  border-radius: 5%;
+  padding: 25px;
+}
+
+#text{
+    font-family: verdana;
+    font-size: 12px;
+    border-radius: 5%;
+    padding: 1px 0 1px 0;
+}
+
+h1{
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2{
+  font-family: verdana;
+  font-size: 17px;
+  text-align: center;
+}
+
+
+#first{
+  display: inline-block;
+}
+
+#p{
+
+}
