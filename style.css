@@ -54,6 +54,15 @@ h2{
   display: inline-block;
 }
 
-#p{
+#gap{
+  width: 400px;
+  height: 100px;
+}
 
+#radicado{
+  width: 200px;
+}
+
+#email{
+  width: 200px;
 }

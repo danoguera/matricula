@@ -24,7 +24,7 @@
       <div>
       <span id="first">
       <label for="email">E-mail:</label><br>
-      <input type="text" name="email">
+      <input type="email" name="email">
       </span>
       <span id="first">
       <label "social">Facebook:</label><br>
@@ -45,12 +45,47 @@
       <input type="checkbox" name="tecnico" value="tecnico">Técnico
       <input type="checkbox" name="otro" value="otro">Otro
       </div>
-      <br>
-      <div>
-      <input type="reset" value="Cancelar">
-      <input type="submit" value="Enviar">
     </div>
-    </form>
+    <br />
+    <h2>Detalles</h2>
+    <div id="form">
+
+        <div>
+          <span id="first">
+            <label for="peticion">Petición</label>
+            <select id="student_status" name="Seleccione" placeholder="Seleccione..">
+              <option value="">Seleccione...</option>
+              <option value="ingreso">Ingreso</option>
+              <option value="reintegro">Reintegro</option>
+              <option value="retiro">Retiro</option>
+              <option value="otros">Otros</option>
+            </select>
+          </span>
+          <span>
+            <label for="date">Fecha</label>
+            <input type="date" name="date">
+          </span>
+        </div>
+        <div>
+          <label for="textarea">Observaciones</label>
+          <br>
+          <textarea id="gap" name="comments" form="comments">Cuétenos su caso...</textarea>
+        </div>
+        <div>
+          <span id="first">
+            <label for="www">Página Web</label><br>
+            <input type="url" name="website" placeholder="http..">
+          </span>
+          <span id="first">
+            <label for="radicado">Número de Radicado</label><br>
+            <input type="number" placeholder="Radicado Número" name="radicado" min="1" max="20" id="radicado">
+        </div>
+        <br>
+        <div>
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar">
+      </div>
+          </form>
     </div>
 </body>
 </html>
